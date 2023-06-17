@@ -83,6 +83,7 @@ input:focus~label {
     margin: -15px 0 15px;
     font-size: 0.9em;
     color: #ffffff;
+    line-height: 2;
     display: flex;
     justify-content: center;
 }

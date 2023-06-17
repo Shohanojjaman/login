@@ -16,15 +16,10 @@
 /* X-Small devices (Phone, 575 and down) */
 @media (max-width:575px) {
     .formBox {
-        position: relative;
         width: 80%;
-        height: 450px;
-        background: transparent;
-        border: 2px solid rgba(255, 255, 255, 0.5);
-        border-radius: 20px;
-        backdrop-filter: blur(15px);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    }
+
+    .inputBox {
+        width: 95%;
     }
 }
