@@ -1,0 +1,30 @@
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1440px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1440px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 787px) {}
+
+/* X-Small devices (Phone, 575 and down) */
+@media (max-width:575px) {
+    .formBox {
+        position: relative;
+        width: 80%;
+        height: 450px;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur(15px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
